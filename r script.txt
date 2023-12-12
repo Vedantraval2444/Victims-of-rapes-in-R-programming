@@ -1,0 +1,69 @@
+#Find dimention of the Variable:
+dim(Victom_of_raps)
+
+#Find Maximum value:
+max(Victom_of_raps$Rape_Cases_Reported)
+max(Victom_of_raps$Victims_of_Rape_Total)
+
+#Find Minimum value:
+min(Victom_of_raps$Victims_Above_50_Yrs)
+min(Victom_of_raps$Year)
+
+#Find Mean valule:
+mean(Victom_of_raps$`Victims_Between_14-18_Yrs`)
+mean(Victom_of_raps$`Victims_Between_30-50_Yrs`)
+
+#Find Median value:
+median(Victom_of_raps$Victims_Above_50_Yrs)
+median(Victom_of_raps$`Victims_Between_30-50_Yrs`)
+
+#Find Standard Deviation value:
+sd(Victom_of_raps$`Victims_Between_10-14_Yrs`)
+sd(Victom_of_raps$`Victims_Between_18-30_Yrs`)
+
+#Find Variance value:
+var(Victom_of_raps$Victims_Upto_10_Yrs)
+var(Victom_of_raps$Rape_Cases_Reported)
+
+#Find Summary value:
+summary(Victom_of_raps$`Victims_Between_10-14_Yrs`)
+summary(Victom_of_raps$`Victims_Between_30-50_Yrs`)
+
+#Find Corelation value:
+cor(Victom_of_raps$Year,Victom_of_raps$Rape_Cases_Reported)
+
+#Find Histogram and give colour for Victims above 50 Years:
+hist(Victom_of_raps$Victims_Above_50_Yrs)
+hist(Victom_of_raps$Victims_Above_50_Yrs,col="green",border="black")
+
+#Find Histogram and give colour for Victims of Rape Years:
+hist(Victom_of_raps$Victims_of_Rape_Total)
+hist(Victom_of_raps$Victims_of_Rape_Total,col="blue",border="red")
+
+#Find Histogram and give colour for Years:
+hist(Victom_of_raps$Year)
+hist(Victom_of_raps$Year,col="red",border="black")
+
+#Find Histogram and give colour for Rape cases reported:
+hist(Victom_of_raps$Rape_Cases_Reported)
+hist(Victom_of_raps$Rape_Cases_Reported,col="pink",border="red")
+
+#Find Histogram and give colour for Victims between 10-14 Years:
+hist(Victom_of_raps$`Victims_Between_10-14_Yrs`)
+hist(Victom_of_raps$`Victims_Between_10-14_Yrs`,col="brown",border="black")
+
+#Find Histogram and give colour for Victims Between 14-18 Years:
+hist(Victom_of_raps$`Victims_Between_14-18_Yrs`)
+hist(Victom_of_raps$`Victims_Between_14-18_Yrs`,col="grey",border="yellow")
+
+#Find Histogram and give colour for Victims Between 18-30 Years:
+hist(Victom_of_raps$`Victims_Between_18-30_Yrs`)
+hist(Victom_of_raps$`Victims_Between_18-30_Yrs`,col="yellow",border="black")
+
+#Find Histogram and give colour for Victims Between 30-50 Years:
+hist(Victom_of_raps$`Victims_Between_30-50_Yrs`)
+hist(Victom_of_raps$`Victims_Between_30-50_Yrs`,col="darkgreen",border="black")
+
+#Find Histogram and give colour for Victims upto 10 Years:
+hist(Victom_of_raps$Victims_Upto_10_Yrs)
+hist(Victom_of_raps$Victims_Upto_10_Yrs,col="orange",border="black")
